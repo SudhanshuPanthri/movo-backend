@@ -1,0 +1,378 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\projects\\BookMyShow\\Backend\\Backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E854C29E-400E-4D3C-A5CA-AC64FF6020EF}|API\\API.csproj|c:\\projects\\bookmyshow\\backend\\backend\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E854C29E-400E-4D3C-A5CA-AC64FF6020EF}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E1EFDDC-472A-429A-8D9C-86F052DAD1E6}|Infrastructure\\Infrastructure.csproj|c:\\projects\\bookmyshow\\backend\\backend\\infrastructure\\context\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E1EFDDC-472A-429A-8D9C-86F052DAD1E6}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\context\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAAF87EC-6038-478D-8AA0-3B01CA4C188B}|Domain\\Domain.csproj|c:\\projects\\bookmyshow\\backend\\backend\\domain\\models\\seat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAAF87EC-6038-478D-8AA0-3B01CA4C188B}|Domain\\Domain.csproj|solutionrelative:domain\\models\\seat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAAF87EC-6038-478D-8AA0-3B01CA4C188B}|Domain\\Domain.csproj|c:\\projects\\bookmyshow\\backend\\backend\\domain\\models\\showtime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAAF87EC-6038-478D-8AA0-3B01CA4C188B}|Domain\\Domain.csproj|solutionrelative:domain\\models\\showtime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAAF87EC-6038-478D-8AA0-3B01CA4C188B}|Domain\\Domain.csproj|c:\\projects\\bookmyshow\\backend\\backend\\domain\\models\\theater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAAF87EC-6038-478D-8AA0-3B01CA4C188B}|Domain\\Domain.csproj|solutionrelative:domain\\models\\theater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAAF87EC-6038-478D-8AA0-3B01CA4C188B}|Domain\\Domain.csproj|c:\\projects\\bookmyshow\\backend\\backend\\domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAAF87EC-6038-478D-8AA0-3B01CA4C188B}|Domain\\Domain.csproj|solutionrelative:domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAAF87EC-6038-478D-8AA0-3B01CA4C188B}|Domain\\Domain.csproj|c:\\projects\\bookmyshow\\backend\\backend\\domain\\models\\bookingdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAAF87EC-6038-478D-8AA0-3B01CA4C188B}|Domain\\Domain.csproj|solutionrelative:domain\\models\\bookingdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAAF87EC-6038-478D-8AA0-3B01CA4C188B}|Domain\\Domain.csproj|c:\\projects\\bookmyshow\\backend\\backend\\domain\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAAF87EC-6038-478D-8AA0-3B01CA4C188B}|Domain\\Domain.csproj|solutionrelative:domain\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAAF87EC-6038-478D-8AA0-3B01CA4C188B}|Domain\\Domain.csproj|c:\\projects\\bookmyshow\\backend\\backend\\domain\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAAF87EC-6038-478D-8AA0-3B01CA4C188B}|Domain\\Domain.csproj|solutionrelative:domain\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAAF87EC-6038-478D-8AA0-3B01CA4C188B}|Domain\\Domain.csproj|c:\\projects\\bookmyshow\\backend\\backend\\domain\\models\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAAF87EC-6038-478D-8AA0-3B01CA4C188B}|Domain\\Domain.csproj|solutionrelative:domain\\models\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAAF87EC-6038-478D-8AA0-3B01CA4C188B}|Domain\\Domain.csproj|c:\\projects\\bookmyshow\\backend\\backend\\domain\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAAF87EC-6038-478D-8AA0-3B01CA4C188B}|Domain\\Domain.csproj|solutionrelative:domain\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E854C29E-400E-4D3C-A5CA-AC64FF6020EF}|API\\API.csproj|c:\\projects\\bookmyshow\\backend\\backend\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E854C29E-400E-4D3C-A5CA-AC64FF6020EF}|API\\API.csproj|solutionrelative:api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E1EFDDC-472A-429A-8D9C-86F052DAD1E6}|Infrastructure\\Infrastructure.csproj|c:\\projects\\bookmyshow\\backend\\backend\\infrastructure\\implementation\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E1EFDDC-472A-429A-8D9C-86F052DAD1E6}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\implementation\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CAADDA1-7B46-4150-88A5-A7A555E44520}|Application\\Application.csproj|c:\\projects\\bookmyshow\\backend\\backend\\application\\services\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CAADDA1-7B46-4150-88A5-A7A555E44520}|Application\\Application.csproj|solutionrelative:application\\services\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CAADDA1-7B46-4150-88A5-A7A555E44520}|Application\\Application.csproj|c:\\projects\\bookmyshow\\backend\\backend\\application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CAADDA1-7B46-4150-88A5-A7A555E44520}|Application\\Application.csproj|solutionrelative:application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CAADDA1-7B46-4150-88A5-A7A555E44520}|Application\\Application.csproj|c:\\projects\\bookmyshow\\backend\\backend\\application\\interfaces\\ijwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CAADDA1-7B46-4150-88A5-A7A555E44520}|Application\\Application.csproj|solutionrelative:application\\interfaces\\ijwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E1EFDDC-472A-429A-8D9C-86F052DAD1E6}|Infrastructure\\Infrastructure.csproj|c:\\projects\\bookmyshow\\backend\\backend\\infrastructure\\context\\dbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E1EFDDC-472A-429A-8D9C-86F052DAD1E6}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\context\\dbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E854C29E-400E-4D3C-A5CA-AC64FF6020EF}|API\\API.csproj|c:\\projects\\bookmyshow\\backend\\backend\\api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E854C29E-400E-4D3C-A5CA-AC64FF6020EF}|API\\API.csproj|solutionrelative:api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CAADDA1-7B46-4150-88A5-A7A555E44520}|Application\\Application.csproj|c:\\projects\\bookmyshow\\backend\\backend\\application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CAADDA1-7B46-4150-88A5-A7A555E44520}|Application\\Application.csproj|solutionrelative:application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CAADDA1-7B46-4150-88A5-A7A555E44520}|Application\\Application.csproj|c:\\projects\\bookmyshow\\backend\\backend\\application\\dto\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CAADDA1-7B46-4150-88A5-A7A555E44520}|Application\\Application.csproj|solutionrelative:application\\dto\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CAADDA1-7B46-4150-88A5-A7A555E44520}|Application\\Application.csproj|c:\\projects\\bookmyshow\\backend\\backend\\application\\dto\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CAADDA1-7B46-4150-88A5-A7A555E44520}|Application\\Application.csproj|solutionrelative:application\\dto\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E1EFDDC-472A-429A-8D9C-86F052DAD1E6}|Infrastructure\\Infrastructure.csproj|c:\\projects\\bookmyshow\\backend\\backend\\infrastructure\\interfaces\\iuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E1EFDDC-472A-429A-8D9C-86F052DAD1E6}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\interfaces\\iuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BookingDetail.cs",
+              "DocumentMoniker": "C:\\projects\\BookMyShow\\Backend\\Backend\\Domain\\Models\\BookingDetail.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\BookingDetail.cs",
+              "ToolTip": "C:\\projects\\BookMyShow\\Backend\\Backend\\Domain\\Models\\BookingDetail.cs",
+              "RelativeToolTip": "Domain\\Models\\BookingDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T10:47:16.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\projects\\BookMyShow\\Backend\\Backend\\Domain\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\User.cs",
+              "ToolTip": "C:\\projects\\BookMyShow\\Backend\\Backend\\Domain\\Models\\User.cs",
+              "RelativeToolTip": "Domain\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T08:10:13.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Seat.cs",
+              "DocumentMoniker": "C:\\projects\\BookMyShow\\Backend\\Backend\\Domain\\Models\\Seat.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\Seat.cs",
+              "ToolTip": "C:\\projects\\BookMyShow\\Backend\\Backend\\Domain\\Models\\Seat.cs",
+              "RelativeToolTip": "Domain\\Models\\Seat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T10:45:35.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DBContext.cs",
+              "DocumentMoniker": "C:\\projects\\BookMyShow\\Backend\\Backend\\Infrastructure\\Context\\DBContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Context\\DBContext.cs",
+              "ToolTip": "C:\\projects\\BookMyShow\\Backend\\Backend\\Infrastructure\\Context\\DBContext.cs",
+              "RelativeToolTip": "Infrastructure\\Context\\DBContext.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAiwHQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T08:32:04.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "C:\\projects\\BookMyShow\\Backend\\Backend\\Domain\\Models\\Booking.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\Booking.cs",
+              "ToolTip": "C:\\projects\\BookMyShow\\Backend\\Backend\\Domain\\Models\\Booking.cs",
+              "RelativeToolTip": "Domain\\Models\\Booking.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T10:47:49.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Theater.cs",
+              "DocumentMoniker": "C:\\projects\\BookMyShow\\Backend\\Backend\\Domain\\Models\\Theater.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\Theater.cs",
+              "ToolTip": "C:\\projects\\BookMyShow\\Backend\\Backend\\Domain\\Models\\Theater.cs",
+              "RelativeToolTip": "Domain\\Models\\Theater.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T10:41:43.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ShowTime.cs",
+              "DocumentMoniker": "C:\\projects\\BookMyShow\\Backend\\Backend\\Domain\\Models\\ShowTime.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\ShowTime.cs",
+              "ToolTip": "C:\\projects\\BookMyShow\\Backend\\Backend\\Domain\\Models\\ShowTime.cs",
+              "RelativeToolTip": "Domain\\Models\\ShowTime.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T10:44:39.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\projects\\BookMyShow\\Backend\\Backend\\Domain\\Models\\Payment.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\Payment.cs",
+              "ToolTip": "C:\\projects\\BookMyShow\\Backend\\Backend\\Domain\\Models\\Payment.cs",
+              "RelativeToolTip": "Domain\\Models\\Payment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T10:50:19.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Genre.cs",
+              "DocumentMoniker": "C:\\projects\\BookMyShow\\Backend\\Backend\\Domain\\Models\\Genre.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\Genre.cs",
+              "ToolTip": "C:\\projects\\BookMyShow\\Backend\\Backend\\Domain\\Models\\Genre.cs",
+              "RelativeToolTip": "Domain\\Models\\Genre.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T10:43:13.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "C:\\projects\\BookMyShow\\Backend\\Backend\\Domain\\Models\\Movie.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\Movie.cs",
+              "ToolTip": "C:\\projects\\BookMyShow\\Backend\\Backend\\Domain\\Models\\Movie.cs",
+              "RelativeToolTip": "Domain\\Models\\Movie.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T10:39:48.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "JWTTokenService.cs",
+              "DocumentMoniker": "C:\\projects\\BookMyShow\\Backend\\Backend\\Application\\Services\\JWTTokenService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\JWTTokenService.cs",
+              "ToolTip": "C:\\projects\\BookMyShow\\Backend\\Backend\\Application\\Services\\JWTTokenService.cs",
+              "RelativeToolTip": "Application\\Services\\JWTTokenService.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAMwCkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T08:59:25.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\projects\\BookMyShow\\Backend\\Backend\\API\\Program.cs",
+              "RelativeDocumentMoniker": "API\\Program.cs",
+              "ToolTip": "C:\\projects\\BookMyShow\\Backend\\Backend\\API\\Program.cs",
+              "RelativeToolTip": "API\\Program.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAiwEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T08:53:56.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\projects\\BookMyShow\\Backend\\Backend\\API\\appsettings.json",
+              "RelativeDocumentMoniker": "API\\appsettings.json",
+              "ToolTip": "C:\\projects\\BookMyShow\\Backend\\Backend\\API\\appsettings.json",
+              "RelativeToolTip": "API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-26T08:30:07.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IJWTTokenService.cs",
+              "DocumentMoniker": "C:\\projects\\BookMyShow\\Backend\\Backend\\Application\\Interfaces\\IJWTTokenService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IJWTTokenService.cs",
+              "ToolTip": "C:\\projects\\BookMyShow\\Backend\\Backend\\Application\\Interfaces\\IJWTTokenService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IJWTTokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T08:57:23.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\projects\\BookMyShow\\Backend\\Backend\\Application\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\UserService.cs",
+              "ToolTip": "C:\\projects\\BookMyShow\\Backend\\Backend\\Application\\Services\\UserService.cs",
+              "RelativeToolTip": "Application\\Services\\UserService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T09:18:09.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "RegisterRequest.cs",
+              "DocumentMoniker": "C:\\projects\\BookMyShow\\Backend\\Backend\\Application\\DTO\\RegisterRequest.cs",
+              "RelativeDocumentMoniker": "Application\\DTO\\RegisterRequest.cs",
+              "ToolTip": "C:\\projects\\BookMyShow\\Backend\\Backend\\Application\\DTO\\RegisterRequest.cs",
+              "RelativeToolTip": "Application\\DTO\\RegisterRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T09:30:32.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DBContextFactory.cs",
+              "DocumentMoniker": "C:\\projects\\BookMyShow\\Backend\\Backend\\Infrastructure\\Context\\DBContextFactory.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Context\\DBContextFactory.cs",
+              "ToolTip": "C:\\projects\\BookMyShow\\Backend\\Backend\\Infrastructure\\Context\\DBContextFactory.cs",
+              "RelativeToolTip": "Infrastructure\\Context\\DBContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBcAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T10:43:39.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\projects\\BookMyShow\\Backend\\Backend\\Application\\DTO\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "Application\\DTO\\LoginRequest.cs",
+              "ToolTip": "C:\\projects\\BookMyShow\\Backend\\Backend\\Application\\DTO\\LoginRequest.cs",
+              "RelativeToolTip": "Application\\DTO\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T09:34:10.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\projects\\BookMyShow\\Backend\\Backend\\Application\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\projects\\BookMyShow\\Backend\\Backend\\Application\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T09:14:17.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserRepo.cs",
+              "DocumentMoniker": "C:\\projects\\BookMyShow\\Backend\\Backend\\Infrastructure\\Implementation\\UserRepo.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Implementation\\UserRepo.cs",
+              "ToolTip": "C:\\projects\\BookMyShow\\Backend\\Backend\\Infrastructure\\Implementation\\UserRepo.cs",
+              "RelativeToolTip": "Infrastructure\\Implementation\\UserRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T08:42:10.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\projects\\BookMyShow\\Backend\\Backend\\API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\projects\\BookMyShow\\Backend\\Backend\\API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T09:25:58.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IUser.cs",
+              "DocumentMoniker": "C:\\projects\\BookMyShow\\Backend\\Backend\\Infrastructure\\Interfaces\\IUser.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Interfaces\\IUser.cs",
+              "ToolTip": "C:\\projects\\BookMyShow\\Backend\\Backend\\Infrastructure\\Interfaces\\IUser.cs",
+              "RelativeToolTip": "Infrastructure\\Interfaces\\IUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T08:13:08.097Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+C:\projects\BookMyShow\Backend\Backend\Application\obj\Debug\net9.0\Application.csproj.AssemblyReference.cache
+C:\projects\BookMyShow\Backend\Backend\Application\obj\Debug\net9.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\BookMyShow\Backend\Backend\Application\obj\Debug\net9.0\Application.AssemblyInfoInputs.cache
+C:\projects\BookMyShow\Backend\Backend\Application\obj\Debug\net9.0\Application.AssemblyInfo.cs
+C:\projects\BookMyShow\Backend\Backend\Application\obj\Debug\net9.0\Application.csproj.CoreCompileInputs.cache
+C:\projects\BookMyShow\Backend\Backend\Application\bin\Debug\net9.0\Application.deps.json
+C:\projects\BookMyShow\Backend\Backend\Application\bin\Debug\net9.0\Application.dll
+C:\projects\BookMyShow\Backend\Backend\Application\bin\Debug\net9.0\Application.pdb
+C:\projects\BookMyShow\Backend\Backend\Application\bin\Debug\net9.0\Domain.dll
+C:\projects\BookMyShow\Backend\Backend\Application\bin\Debug\net9.0\Infrastructure.dll
+C:\projects\BookMyShow\Backend\Backend\Application\bin\Debug\net9.0\Domain.pdb
+C:\projects\BookMyShow\Backend\Backend\Application\bin\Debug\net9.0\Infrastructure.pdb
+C:\projects\BookMyShow\Backend\Backend\Application\obj\Debug\net9.0\Applicat.44B5EDA2.Up2Date
+C:\projects\BookMyShow\Backend\Backend\Application\obj\Debug\net9.0\Application.dll
+C:\projects\BookMyShow\Backend\Backend\Application\obj\Debug\net9.0\refint\Application.dll
+C:\projects\BookMyShow\Backend\Backend\Application\obj\Debug\net9.0\Application.pdb
+C:\projects\BookMyShow\Backend\Backend\Application\obj\Debug\net9.0\ref\Application.dll

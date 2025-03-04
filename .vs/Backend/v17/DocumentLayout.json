@@ -3,26 +3,6 @@
   "WorkspaceRootPath": "C:\\projects\\BookMyShow\\Backend\\Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4E1EFDDC-472A-429A-8D9C-86F052DAD1E6}|Infrastructure\\Infrastructure.csproj|c:\\projects\\bookmyshow\\backend\\backend\\infrastructure\\implementation\\genrerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E1EFDDC-472A-429A-8D9C-86F052DAD1E6}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\implementation\\genrerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E854C29E-400E-4D3C-A5CA-AC64FF6020EF}|API\\API.csproj|c:\\projects\\bookmyshow\\backend\\backend\\api\\controllers\\genrecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E854C29E-400E-4D3C-A5CA-AC64FF6020EF}|API\\API.csproj|solutionrelative:api\\controllers\\genrecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E854C29E-400E-4D3C-A5CA-AC64FF6020EF}|API\\API.csproj|c:\\projects\\bookmyshow\\backend\\backend\\api\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E854C29E-400E-4D3C-A5CA-AC64FF6020EF}|API\\API.csproj|solutionrelative:api\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4E1EFDDC-472A-429A-8D9C-86F052DAD1E6}|Infrastructure\\Infrastructure.csproj|c:\\projects\\bookmyshow\\backend\\backend\\infrastructure\\implementation\\movierepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E1EFDDC-472A-429A-8D9C-86F052DAD1E6}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\implementation\\movierepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4E1EFDDC-472A-429A-8D9C-86F052DAD1E6}|Infrastructure\\Infrastructure.csproj|c:\\projects\\bookmyshow\\backend\\backend\\infrastructure\\context\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E1EFDDC-472A-429A-8D9C-86F052DAD1E6}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\context\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|C:\\projects\\BookMyShow\\Backend\\Backend\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
@@ -57,10 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{FAAF87EC-6038-478D-8AA0-3B01CA4C188B}|Domain\\Domain.csproj|c:\\projects\\bookmyshow\\backend\\backend\\domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FAAF87EC-6038-478D-8AA0-3B01CA4C188B}|Domain\\Domain.csproj|solutionrelative:domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAAF87EC-6038-478D-8AA0-3B01CA4C188B}|Domain\\Domain.csproj|c:\\projects\\bookmyshow\\backend\\backend\\domain\\models\\bookingdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FAAF87EC-6038-478D-8AA0-3B01CA4C188B}|Domain\\Domain.csproj|solutionrelative:domain\\models\\bookingdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FAAF87EC-6038-478D-8AA0-3B01CA4C188B}|Domain\\Domain.csproj|c:\\projects\\bookmyshow\\backend\\backend\\domain\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -109,6 +85,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{4E1EFDDC-472A-429A-8D9C-86F052DAD1E6}|Infrastructure\\Infrastructure.csproj|c:\\projects\\bookmyshow\\backend\\backend\\infrastructure\\interfaces\\iuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4E1EFDDC-472A-429A-8D9C-86F052DAD1E6}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\interfaces\\iuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\projects\\BookMyShow\\Backend\\Backend\\Infrastructure\\Context\\DBContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infrastructure\\Context\\DBContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\projects\\BookMyShow\\Backend\\Backend\\Domain\\Models\\BookingDetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Domain\\Models\\BookingDetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -118,7 +102,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -126,72 +110,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GenreController.cs",
-              "DocumentMoniker": "C:\\projects\\BookMyShow\\Backend\\Backend\\API\\Controllers\\GenreController.cs",
-              "RelativeDocumentMoniker": "API\\Controllers\\GenreController.cs",
-              "ToolTip": "C:\\projects\\BookMyShow\\Backend\\Backend\\API\\Controllers\\GenreController.cs",
-              "RelativeToolTip": "API\\Controllers\\GenreController.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAewBYAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T10:36:56.071Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GenreRepo.cs",
-              "DocumentMoniker": "C:\\projects\\BookMyShow\\Backend\\Backend\\Infrastructure\\Implementation\\GenreRepo.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Implementation\\GenreRepo.cs",
-              "ToolTip": "C:\\projects\\BookMyShow\\Backend\\Backend\\Infrastructure\\Implementation\\GenreRepo.cs",
-              "RelativeToolTip": "Infrastructure\\Implementation\\GenreRepo.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwDYAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T10:35:29.947Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MoviesController.cs",
-              "DocumentMoniker": "C:\\projects\\BookMyShow\\Backend\\Backend\\API\\Controllers\\MoviesController.cs",
-              "RelativeDocumentMoniker": "API\\Controllers\\MoviesController.cs",
-              "ToolTip": "C:\\projects\\BookMyShow\\Backend\\Backend\\API\\Controllers\\MoviesController.cs",
-              "RelativeToolTip": "API\\Controllers\\MoviesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T10:32:31.053Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MovieRepo.cs",
-              "DocumentMoniker": "C:\\projects\\BookMyShow\\Backend\\Backend\\Infrastructure\\Implementation\\MovieRepo.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Implementation\\MovieRepo.cs",
-              "ToolTip": "C:\\projects\\BookMyShow\\Backend\\Backend\\Infrastructure\\Implementation\\MovieRepo.cs",
-              "RelativeToolTip": "Infrastructure\\Implementation\\MovieRepo.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAQwD8AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T10:27:17.554Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": ".gitignore",
               "DocumentMoniker": "C:\\projects\\BookMyShow\\Backend\\Backend\\.gitignore",
               "RelativeDocumentMoniker": ".gitignore",
               "ToolTip": "C:\\projects\\BookMyShow\\Backend\\Backend\\.gitignore",
               "RelativeToolTip": ".gitignore",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-03-02T15:51:38.495Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 8,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\projects\\BookMyShow\\Backend\\Backend\\Domain\\Models\\User.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\User.cs",
@@ -199,48 +131,49 @@
               "RelativeToolTip": "Domain\\Models\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T08:10:13.048Z"
+              "WhenOpened": "2025-02-26T08:10:13.048Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 5,
               "Title": "Seat.cs",
               "DocumentMoniker": "C:\\projects\\BookMyShow\\Backend\\Backend\\Domain\\Models\\Seat.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\Seat.cs",
               "ToolTip": "C:\\projects\\BookMyShow\\Backend\\Backend\\Domain\\Models\\Seat.cs",
               "RelativeToolTip": "Domain\\Models\\Seat.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T10:45:35.234Z"
+              "WhenOpened": "2025-03-02T10:45:35.234Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 21,
               "Title": "DBContext.cs",
               "DocumentMoniker": "C:\\projects\\BookMyShow\\Backend\\Backend\\Infrastructure\\Context\\DBContext.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Context\\DBContext.cs",
               "ToolTip": "C:\\projects\\BookMyShow\\Backend\\Backend\\Infrastructure\\Context\\DBContext.cs",
               "RelativeToolTip": "Infrastructure\\Context\\DBContext.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAiwD4AAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T08:32:04.487Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-26T08:32:04.487Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 9,
               "Title": "Booking.cs",
               "DocumentMoniker": "C:\\projects\\BookMyShow\\Backend\\Backend\\Domain\\Models\\Booking.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\Booking.cs",
               "ToolTip": "C:\\projects\\BookMyShow\\Backend\\Backend\\Domain\\Models\\Booking.cs",
               "RelativeToolTip": "Domain\\Models\\Booking.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAABBwBMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T10:47:49.725Z"
+              "WhenOpened": "2025-03-02T10:47:49.725Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 7,
               "Title": "Theater.cs",
               "DocumentMoniker": "C:\\projects\\BookMyShow\\Backend\\Backend\\Domain\\Models\\Theater.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\Theater.cs",
@@ -248,47 +181,51 @@
               "RelativeToolTip": "Domain\\Models\\Theater.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T10:41:43.196Z"
+              "WhenOpened": "2025-03-02T10:41:43.196Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 6,
               "Title": "ShowTime.cs",
               "DocumentMoniker": "C:\\projects\\BookMyShow\\Backend\\Backend\\Domain\\Models\\ShowTime.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\ShowTime.cs",
               "ToolTip": "C:\\projects\\BookMyShow\\Backend\\Backend\\Domain\\Models\\ShowTime.cs",
               "RelativeToolTip": "Domain\\Models\\ShowTime.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T10:44:39.437Z"
+              "WhenOpened": "2025-03-02T10:44:39.437Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 10,
               "Title": "Payment.cs",
               "DocumentMoniker": "C:\\projects\\BookMyShow\\Backend\\Backend\\Domain\\Models\\Payment.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\Payment.cs",
               "ToolTip": "C:\\projects\\BookMyShow\\Backend\\Backend\\Domain\\Models\\Payment.cs",
               "RelativeToolTip": "Domain\\Models\\Payment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T10:50:19.598Z"
+              "WhenOpened": "2025-03-02T10:50:19.598Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 11,
               "Title": "Genre.cs",
               "DocumentMoniker": "C:\\projects\\BookMyShow\\Backend\\Backend\\Domain\\Models\\Genre.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\Genre.cs",
               "ToolTip": "C:\\projects\\BookMyShow\\Backend\\Backend\\Domain\\Models\\Genre.cs",
               "RelativeToolTip": "Domain\\Models\\Genre.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T10:43:13.536Z"
+              "WhenOpened": "2025-03-02T10:43:13.536Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 12,
               "Title": "Movie.cs",
               "DocumentMoniker": "C:\\projects\\BookMyShow\\Backend\\Backend\\Domain\\Models\\Movie.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\Movie.cs",
@@ -296,11 +233,12 @@
               "RelativeToolTip": "Domain\\Models\\Movie.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T10:39:48.265Z"
+              "WhenOpened": "2025-03-02T10:39:48.265Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "JWTTokenService.cs",
               "DocumentMoniker": "C:\\projects\\BookMyShow\\Backend\\Backend\\Application\\Services\\JWTTokenService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\JWTTokenService.cs",
@@ -308,23 +246,25 @@
               "RelativeToolTip": "Application\\Services\\JWTTokenService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T08:59:25.909Z"
+              "WhenOpened": "2025-02-26T08:59:25.909Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\projects\\BookMyShow\\Backend\\Backend\\API\\Program.cs",
               "RelativeDocumentMoniker": "API\\Program.cs",
               "ToolTip": "C:\\projects\\BookMyShow\\Backend\\Backend\\API\\Program.cs",
               "RelativeToolTip": "API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T08:53:56.562Z"
+              "WhenOpened": "2025-02-26T08:53:56.562Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\projects\\BookMyShow\\Backend\\Backend\\API\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "API\\Controllers\\AuthController.cs",
@@ -332,11 +272,12 @@
               "RelativeToolTip": "API\\Controllers\\AuthController.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAADwvxQAAABVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T09:25:58.332Z"
+              "WhenOpened": "2025-02-26T09:25:58.332Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "UserRepo.cs",
               "DocumentMoniker": "C:\\projects\\BookMyShow\\Backend\\Backend\\Infrastructure\\Implementation\\UserRepo.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Implementation\\UserRepo.cs",
@@ -344,23 +285,23 @@
               "RelativeToolTip": "Infrastructure\\Implementation\\UserRepo.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAAwB4AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T08:42:10.272Z"
+              "WhenOpened": "2025-02-26T08:42:10.272Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 22,
               "Title": "BookingDetail.cs",
               "DocumentMoniker": "C:\\projects\\BookMyShow\\Backend\\Backend\\Domain\\Models\\BookingDetail.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\BookingDetail.cs",
               "ToolTip": "C:\\projects\\BookMyShow\\Backend\\Backend\\Domain\\Models\\BookingDetail.cs",
               "RelativeToolTip": "Domain\\Models\\BookingDetail.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-02T10:47:16.962Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 13,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\projects\\BookMyShow\\Backend\\Backend\\API\\appsettings.json",
               "RelativeDocumentMoniker": "API\\appsettings.json",
@@ -368,11 +309,12 @@
               "RelativeToolTip": "API\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-26T08:30:07.579Z"
+              "WhenOpened": "2025-02-26T08:30:07.579Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 15,
               "Title": "IJWTTokenService.cs",
               "DocumentMoniker": "C:\\projects\\BookMyShow\\Backend\\Backend\\Application\\Interfaces\\IJWTTokenService.cs",
               "RelativeDocumentMoniker": "Application\\Interfaces\\IJWTTokenService.cs",
@@ -380,23 +322,25 @@
               "RelativeToolTip": "Application\\Interfaces\\IJWTTokenService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T08:57:23.737Z"
+              "WhenOpened": "2025-02-26T08:57:23.737Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 14,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\projects\\BookMyShow\\Backend\\Backend\\Application\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\UserService.cs",
               "ToolTip": "C:\\projects\\BookMyShow\\Backend\\Backend\\Application\\Services\\UserService.cs",
               "RelativeToolTip": "Application\\Services\\UserService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwAcAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T09:18:09.77Z"
+              "WhenOpened": "2025-02-26T09:18:09.77Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 18,
               "Title": "RegisterRequest.cs",
               "DocumentMoniker": "C:\\projects\\BookMyShow\\Backend\\Backend\\Application\\DTO\\RegisterRequest.cs",
               "RelativeDocumentMoniker": "Application\\DTO\\RegisterRequest.cs",
@@ -404,11 +348,12 @@
               "RelativeToolTip": "Application\\DTO\\RegisterRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T09:30:32.843Z"
+              "WhenOpened": "2025-02-26T09:30:32.843Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 16,
               "Title": "DBContextFactory.cs",
               "DocumentMoniker": "C:\\projects\\BookMyShow\\Backend\\Backend\\Infrastructure\\Context\\DBContextFactory.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Context\\DBContextFactory.cs",
@@ -416,11 +361,12 @@
               "RelativeToolTip": "Infrastructure\\Context\\DBContextFactory.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwBcAAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T10:43:39.626Z"
+              "WhenOpened": "2025-02-26T10:43:39.626Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 19,
               "Title": "LoginRequest.cs",
               "DocumentMoniker": "C:\\projects\\BookMyShow\\Backend\\Backend\\Application\\DTO\\LoginRequest.cs",
               "RelativeDocumentMoniker": "Application\\DTO\\LoginRequest.cs",
@@ -428,11 +374,12 @@
               "RelativeToolTip": "Application\\DTO\\LoginRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T09:34:10.101Z"
+              "WhenOpened": "2025-02-26T09:34:10.101Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 17,
               "Title": "IUserService.cs",
               "DocumentMoniker": "C:\\projects\\BookMyShow\\Backend\\Backend\\Application\\Interfaces\\IUserService.cs",
               "RelativeDocumentMoniker": "Application\\Interfaces\\IUserService.cs",
@@ -440,11 +387,12 @@
               "RelativeToolTip": "Application\\Interfaces\\IUserService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T09:14:17.786Z"
+              "WhenOpened": "2025-02-26T09:14:17.786Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 20,
               "Title": "IUser.cs",
               "DocumentMoniker": "C:\\projects\\BookMyShow\\Backend\\Backend\\Infrastructure\\Interfaces\\IUser.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Interfaces\\IUser.cs",
@@ -452,7 +400,8 @@
               "RelativeToolTip": "Infrastructure\\Interfaces\\IUser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T08:13:08.097Z"
+              "WhenOpened": "2025-02-26T08:13:08.097Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -49,13 +49,17 @@ builder.Services.AddControllers();
 builder.Services.AddOpenApi();
 
 // Add database context with SQL Server
-builder.Services.AddDbContext<DBContext>(options =>
+builder.Services.AddDbContext<ContextDB>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 // Add scoped services
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IJWTTokenService, JWTTokenService>();
 builder.Services.AddScoped<IUser, UserRepo>();
+builder.Services.AddScoped<ITheatre, TheatreRepo>();
+builder.Services.AddSingleton<ITMDBService, TMDBService>();
+builder.Services.AddHttpClient<ITMDBService, TMDBService>();
+
 
 var app = builder.Build();
 

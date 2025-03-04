@@ -172,6 +172,10 @@
             "Serilog.Sinks.Console": {
               "target": "Package",
               "version": "[6.0.0, )"
+            },
+            "TMDbLib": {
+              "target": "Package",
+              "version": "[2.2.0, )"
             }
           },
           "imports": [

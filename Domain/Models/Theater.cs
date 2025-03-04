@@ -11,5 +11,6 @@
         public DateTime UpdatedAt { get; set; }
 
         public ICollection<ShowTime>? ShowTimes { get; set; }
+        public ICollection<Seat>? Seats { get; set; }
     }
 }

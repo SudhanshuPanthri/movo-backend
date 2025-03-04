@@ -1,13 +1,12 @@
 ﻿using Domain.Models;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace Infrastructure.Context
 {
-    public class Context : DbContext
+    public class ContextDB : DbContext
     {
-        public Context(DbContextOptions<Context> options)
+        public ContextDB(DbContextOptions<ContextDB> options)
             : base(options)
         {
         }
@@ -19,7 +18,7 @@ namespace Infrastructure.Context
         public DbSet<Seat> Seats { get; set; }
         public DbSet<Booking> Tickets { get; set; }
         public DbSet<Payment> Payments { get; set; }
-        
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<User>()
@@ -30,7 +29,8 @@ namespace Infrastructure.Context
             modelBuilder.Entity<User>()
                 .HasMany(u => u.Payments)
                 .WithOne(p => p.User)
-                .HasForeignKey(p => p.UserId);
+                .HasForeignKey(p => p.UserId)
+                .OnDelete(DeleteBehavior.NoAction); // Prevent cascading delete for Users
             
             modelBuilder.Entity<Movie>()
                 .HasMany(m => m.ShowTimes)
@@ -65,7 +65,26 @@ namespace Infrastructure.Context
             modelBuilder.Entity<Seat>()
                 .Property(se => se.Type)
                 .HasConversion<string>(); 
+
+            // Prevent cascading delete for ShowTime and Theater relationships
+            modelBuilder.Entity<Seat>()
+                .HasOne(se => se.ShowTime)
+                .WithMany(st => st.Seats)
+                .HasForeignKey(se => se.ShowTimeId)
+                .OnDelete(DeleteBehavior.Restrict); // Prevent cascading delete for ShowTime
             
+            modelBuilder.Entity<Seat>()
+                .HasOne(se => se.Theater)
+                .WithMany(t => t.Seats)
+                .HasForeignKey(se => se.TheaterId)
+                .OnDelete(DeleteBehavior.NoAction); // Prevent cascading delete for Theater
+            
+            // Fixing the foreign key for Payments table:
+            modelBuilder.Entity<Payment>()
+                .HasOne(p => p.Booking)
+                .WithOne(b => b.Payment)
+                .HasForeignKey<Payment>(p => p.PaymentId)
+                .OnDelete(DeleteBehavior.NoAction); // Prevent cascading delete for Payment-Booking relationship
 
             base.OnModelCreating(modelBuilder);
         }

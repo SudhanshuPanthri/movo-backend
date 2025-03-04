@@ -8,7 +8,9 @@ namespace Domain.Models
         public int TheaterId { get; set; }
         public DateTime StartTime { get; set; }
         public DateTime EndTime { get; set; }
-        public int Price { get; set; }
+        public int TotalSeats { get; set; }
+        public int TotalSeatsAvailable { get; set; }
+        public bool IsSoldOut { get; set; }
         public DateTime CreatedAt { get; set; }
         public DateTime UpdatedAt { get; set; }
 

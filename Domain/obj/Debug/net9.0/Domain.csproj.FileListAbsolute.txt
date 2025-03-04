@@ -10,3 +10,4 @@ C:\projects\BookMyShow\Backend\Backend\Domain\obj\Debug\net9.0\Domain.dll
 C:\projects\BookMyShow\Backend\Backend\Domain\obj\Debug\net9.0\refint\Domain.dll
 C:\projects\BookMyShow\Backend\Backend\Domain\obj\Debug\net9.0\Domain.pdb
 C:\projects\BookMyShow\Backend\Backend\Domain\obj\Debug\net9.0\ref\Domain.dll
+C:\projects\BookMyShow\Backend\Backend\Domain\obj\Debug\net9.0\Domain.sourcelink.json

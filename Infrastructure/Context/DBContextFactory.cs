@@ -3,9 +3,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.Extensions.Configuration;
 
-public class DBContextFactory : IDesignTimeDbContextFactory<DBContext>
+public class DBContextFactory : IDesignTimeDbContextFactory<ContextDB>
 {
-    public DBContext CreateDbContext(string[] args)
+    public ContextDB CreateDbContext(string[] args)
     {
         var basePath = Directory.GetCurrentDirectory();
 
@@ -20,7 +20,7 @@ public class DBContextFactory : IDesignTimeDbContextFactory<DBContext>
             .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
             .Build();
 
-        var optionsBuilder = new DbContextOptionsBuilder<DBContext>();
+        var optionsBuilder = new DbContextOptionsBuilder<ContextDB>();
         var connectionString = configuration.GetConnectionString("DefaultConnection");
 
         if (string.IsNullOrEmpty(connectionString))
@@ -30,6 +30,6 @@ public class DBContextFactory : IDesignTimeDbContextFactory<DBContext>
 
         optionsBuilder.UseSqlServer(connectionString);
 
-        return new DBContext(optionsBuilder.Options);
+        return new ContextDB(optionsBuilder.Options);
     }
 }

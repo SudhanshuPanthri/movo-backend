@@ -12,9 +12,9 @@ namespace Infrastructure.Implementation
 {
     public class UserRepo:IUser
     {
-        private readonly DBContext _context;
+        private readonly ContextDB _context;
 
-        public UserRepo(DBContext context)
+        public UserRepo(ContextDB context)
         {
             _context = context;
         }

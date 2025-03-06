@@ -75,5 +75,20 @@ namespace WebAPI.Controllers
                 return BadRequest(new { message = ex.Message });
             }
         }
+        
+        //Get images related to movie
+        [HttpGet("images/{id}")]
+        public async Task<IActionResult> GetImages(int id)
+        {
+            try
+            {
+                var imageDetails = await _tmdbService.GetImages(id);
+                return Ok(imageDetails);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { message = ex.Message });
+            }
+        }
     }
 }

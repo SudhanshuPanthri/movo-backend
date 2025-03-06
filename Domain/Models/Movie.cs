@@ -1,4 +1,6 @@
-﻿namespace Domain.Models
+﻿using Newtonsoft.Json; 
+
+namespace Domain.Models
 {
     public class Movie
     {
@@ -6,7 +8,8 @@
         public string? Title { get; set; }
         public bool Adult {get;set;}
         public string? OriginalLanguage { get; set; }
-        public List<int> GenreId { get; set; }=new List<int>();
+        
+        public string? SerializedGenreIds { get; set; }  // Store the genres as a serialized string
         
         public decimal VoteAverage { get; set; }
         public int Duration { get; set; }
@@ -17,5 +20,13 @@
         public DateTime UpdatedAt { get; set; }
         
         public ICollection<ShowTime>? ShowTimes { get; set; }
+
+        // Deserialization method to get the List<int> back
+        [JsonIgnore]  // Ignore this in serialization, if needed
+        public List<int> GenreId 
+        { 
+            get => SerializedGenreIds != null ? JsonConvert.DeserializeObject<List<int>>(SerializedGenreIds) : new List<int>(); 
+            set => SerializedGenreIds = JsonConvert.SerializeObject(value); 
+        }
     }
 }

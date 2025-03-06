@@ -65,6 +65,22 @@ namespace Infrastructure.Migrations
                     b.ToTable("Tickets");
                 });
 
+            modelBuilder.Entity("Domain.Models.Genre", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Genres");
+                });
+
             modelBuilder.Entity("Domain.Models.Movie", b =>
                 {
                     b.Property<int>("MovieId")
@@ -97,6 +113,9 @@ namespace Infrastructure.Migrations
 
                     b.Property<DateTime>("ReleaseDate")
                         .HasColumnType("datetime2");
+
+                    b.Property<string>("SerializedGenreIds")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Title")
                         .HasColumnType("nvarchar(max)");
@@ -156,7 +175,7 @@ namespace Infrastructure.Migrations
                     b.Property<string>("SeatNumber")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("ShowTimeId")
+                    b.Property<int?>("ShowTimeId")
                         .HasColumnType("int");
 
                     b.Property<int>("TheaterId")
@@ -328,8 +347,7 @@ namespace Infrastructure.Migrations
                     b.HasOne("Domain.Models.ShowTime", "ShowTime")
                         .WithMany("Seats")
                         .HasForeignKey("ShowTimeId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
+                        .OnDelete(DeleteBehavior.Restrict);
 
                     b.HasOne("Domain.Models.Theater", "Theater")
                         .WithMany("Seats")

@@ -25,7 +25,7 @@ public class TMDBService:ITMDBService
         request.AddHeader("accept", "application/json");
         request.AddHeader("Authorization", $"Bearer {_APIKEY}");
 
-        var response = await _restClient.ExecuteAsync(request);
+        var response = await _restClient.GetAsync(request);
 
         if (response.IsSuccessful)
         {
@@ -48,7 +48,7 @@ public class TMDBService:ITMDBService
         request.AddHeader("accept", "application/json");
         request.AddHeader("Authorization", $"Bearer {_APIKEY}");
 
-        var response = await _restClient.ExecuteAsync<Result>(request);
+        var response = await _restClient.ExecuteAsync(request);
             
         if (response.IsSuccessful)
         {
@@ -69,7 +69,7 @@ public class TMDBService:ITMDBService
         request.AddHeader("accept", "application/json");
         request.AddHeader("Authorization", $"Bearer {_APIKEY}");
 
-        var response = await _restClient.ExecuteAsync<List<object>>(request);
+        var response = await _restClient.ExecuteAsync(request);
             
         if (response.IsSuccessful)
         {
@@ -98,6 +98,24 @@ public class TMDBService:ITMDBService
         {
             var data = JsonConvert.DeserializeObject<TmdbMovieDetailDTO>(response.Content);
             
+            return data;
+        }
+        else
+        {
+            throw new Exception($"Error: {response.ErrorMessage}");
+        }
+    }
+    public async Task<TmdbImageDTO> GetImages(int id)
+    {
+        var request = new RestRequest($"movie/{id}/images", Method.Get);
+        request.AddHeader("accept", "application/json");
+        request.AddHeader("Authorization", $"Bearer {_APIKEY}");
+    
+        var response = await _restClient.GetAsync(request);
+            
+        if (response.IsSuccessful)
+        {
+            var data = JsonConvert.DeserializeObject<TmdbImageDTO>(response.Content);
             return data;
         }
         else

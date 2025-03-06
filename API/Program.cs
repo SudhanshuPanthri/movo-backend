@@ -38,7 +38,7 @@ builder.Services.AddAuthentication(options =>
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowSpecificOrigin",
-        builder => builder.WithOrigins("http://localhost:3000")  // Your React app's URL
+        builder => builder.WithOrigins("http://localhost:3000","http://localhost:3001")  // Your React app's URL
                           .AllowAnyHeader()
                           .AllowAnyMethod()
                           .AllowCredentials());  // Allow credentials like cookies and Authorization headers
@@ -59,7 +59,7 @@ builder.Services.AddScoped<IUser, UserRepo>();
 builder.Services.AddScoped<ITheatre, TheatreRepo>();
 builder.Services.AddSingleton<ITMDBService, TMDBService>();
 builder.Services.AddHttpClient<ITMDBService, TMDBService>();
-
+builder.Services.AddScoped<ISeat, SeatRepo>();
 
 var app = builder.Build();
 

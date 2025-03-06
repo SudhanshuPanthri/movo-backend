@@ -28,7 +28,7 @@ namespace Infrastructure.Implementation
             }
             else
             {
-                throw new Exception("User not found");
+                return null;
             }
         }
 
@@ -43,7 +43,7 @@ namespace Infrastructure.Implementation
             }
             else
             {
-                throw new Exception("User already exists");
+                return false;
             }
         }
     }

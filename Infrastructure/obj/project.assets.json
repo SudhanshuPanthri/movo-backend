@@ -1134,7 +1134,7 @@
       "Newtonsoft.Json/13.0.3": {
         "type": "package",
         "compile": {
-          "lib/net6.0/_._": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
           }
         },
@@ -1812,7 +1812,8 @@
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
           "AutoMapper": "14.0.0",
-          "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1"
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
+          "Newtonsoft.Json": "13.0.3"
         },
         "compile": {
           "bin/placeholder/Domain.dll": {}
@@ -5237,6 +5238,7 @@
       "Microsoft.Extensions.Configuration.Json >= 9.0.2",
       "Microsoft.Extensions.Logging >= 9.0.2",
       "Microsoft.SqlServer.Server >= 1.0.0",
+      "Newtonsoft.Json >= 13.0.3",
       "Serilog >= 4.2.0",
       "Serilog.Sinks.Console >= 6.0.0",
       "TMDbLib >= 2.2.0"
@@ -5330,6 +5332,10 @@
           "Microsoft.SqlServer.Server": {
             "target": "Package",
             "version": "[1.0.0, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.3, )"
           },
           "Serilog": {
             "target": "Package",
